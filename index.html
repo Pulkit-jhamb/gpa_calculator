@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wrapper">
+    <div class="heading" style="text-align: center;">
+    <H1>GPA CALCULATOR</H1>
+    </div>
+
+    <div class="input-commands">
+        <div>
+            <div class="labbeling">Enter course name</div>
+            <input id="course-name" type="text" placeholder="enter course name">
+            
+        </div>
+        <div class="credits">
+            <div class="labbeling">credits</div>
+            
+            <input id="credits" type="number" placeholder="enter credits of the course">
+        
+        </div>
+        <div>
+            <div class="labbeling">grade</div>
+            <select id="grade" class="form-control" >
+                <option value="10">A</option>
+                <option value="9">A-</option>
+                <option value="8">B</option>
+                <option value="7">B-</option>
+                <option value="6">C</option>
+            </select>
+    </div>
+
+    <div class="button">
+        <div class="hide">add</div>
+        <button id="add" style="color:black;">Add</button>
+    </div>
+
+    </div>
+
+    <br><br>
+
+    <table id="table" class="table table-bordered display-none" border="1">
+        <thead>
+            <tr>
+                <th>Course Code</th>
+                <th>Unit Load</th>
+                <th>Grade</th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+
+        </tbody>
+        
+        <tfoot id="tfoot">
+
+        </tfoot>
+    </table>
+
+    <div class = "final_buttons" id="final_buttons">
+    
+        <div>
+        <input id="calbutton" type="button" value="calculate gpa" >
+    </div>
+
+    <div class="clear">
+        <input id="clear" type="button" value="clear">
+    </div>
+
+</div>
+
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>

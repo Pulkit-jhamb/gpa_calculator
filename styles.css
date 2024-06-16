@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(30, 30, 30);
+    
+}
+
+
+.wrapper{
+    /* padding-left: 50px;
+
+    padding-right: 50px; */
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.heading{
+    font-family: 'Courier New', Courier, monospace;
+    /* font-style: italic  ; */
+    color: white;
+   
+}
+
+.input-commands{
+    display: flex ;
+    justify-content: space-around;
+    position: relative;
+    right: 50px;
+    align-items: stretch;
+}
+
+.labbeling{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.table{
+    /* border-color: rgb(255, 255, 255); */
+    color: white;
+    width: 100%;
+
+
+}
+
+.calbutton{
+    color: yellow;
+}
+
+.final_buttons{
+    display: flex;
+}
+
+.clear{
+    padding-left: 200px;
+}
+
+
+.button{
+
+}
+
+.hide{
+    color: rgb(30, 30, 30);
+}
+.course-name{
+
+}
+
